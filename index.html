@@ -1,0 +1,287 @@
+<html>
+<head>
+<style>
+
+:root {
+  --margin-width: 200px;
+}
+
+body {
+    font-family: arial;
+    font-size: 12px;
+}
+
+#margin {
+    background-color: #A7C7E7;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: var(--margin-width);
+    padding: 10px;
+    color: white;
+}
+
+#body {
+    background-color: white;
+    position: absolute;
+    left: var(--margin-width);
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 0px 0px 20px;
+    color: gray;
+}
+
+#info {
+    background: green;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #668bb9;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+#buttons {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+#cursor {
+    width: 10px;
+    height: 16px;
+    position: absolute;
+    right: 6px;
+    bottom: 3px;
+}
+
+h1 {
+    font-size: 50px;
+    color: black;
+    line-height: 25px;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 0px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+#margin h3 {
+    text-shadow: 2px 2px #656565;
+}
+
+.skill {
+    width: 90%;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.years {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 10px;
+    padding-top: 2px;
+}
+
+.skill-bar {
+    height: 7px;
+    background-color: #c7e2ef;
+}
+
+.skill-bar-fill {
+    height: 7px;
+    background: rgb(135,135,135);
+    background: linear-gradient(180deg, rgb(241 245 255) 0%, rgb(126 133 144) 100%);
+}
+
+.skill-bar._100 .skill-bar-fill {
+    width: 100%;
+}
+
+.skill-bar._80 .skill-bar-fill {
+    width: 80%;
+}
+
+.skill-bar._70 .skill-bar-fill {
+    width: 70%;
+}
+
+.skill-bar._66 .skill-bar-fill {
+    width: 66%;
+}
+
+.skill-bar._50 .skill-bar-fill {
+    width: 50%;
+}
+
+.profile {
+    display: block;
+    text-align: justify;
+}
+
+.profile, .position {
+    padding-right: 20px;
+}
+
+.position {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.period {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    font-size: 12px;
+    font-family: courier;
+    font-weight: bold;
+}
+
+.company {
+    font-weight: bold;
+}
+
+.job-title {
+    font-style: italic;
+}
+
+</style>
+</head>
+<body><div id="margin">
+
+<div id="info">
+alinescu@gmail.com<br/>
+Longueuil, QC, CA<br/>
+(438) 483-1987<br/>
+linkedin.com/in/alin-florea-9228b265
+</div>
+
+<h3>Skills</h3>
+<div class="skill">SQL<div class="years">11 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">Python<div class="years">7 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">Javascript<div class="years">7 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">CSS<div class="years">7 years</div><br/><div class="skill-bar _70"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">Neo4J<div class="years">5 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">PHP<div class="years">4 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">PL/pgSQL<div class="years">3 years</div><br/><div class="skill-bar _80"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">NIFI<div class="years">2 years</div><br/><div class="skill-bar _80"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">C/C++<div class="years">10 years</div><br/><div class="skill-bar _80"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">x86 Assembly<div class="years">10 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">ExtJS<div class="years">6 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">SQLAlchemy<div class="years">7 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<br/>
+<h3>Languages</h3>
+<div class="skill">French<div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">English<div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">Romanian<div class="skill-bar _66"><div class="skill-bar-fill"></div></div></div>
+<div class="skill">Spanish<div class="skill-bar _50"><div class="skill-bar-fill"></div></div></div>
+</div><div id="body"><h1>Alin Florea</h1>
+<h2>Senior Software Developper</h2>
+
+<h3>Profile</h3>
+<span class="profile">Alin is a senior-level Python 3 and SQL developer with over 10 years of experience in back-end programming, data integration, management, and analysis. His ability to optimize resource utilization is rooted in two decades of infrastructure scaling, graphics and low-level system programming, ensuring optimal performance and cost efficiency for cloud-based projects. As a quick learner, he is able to integrate emerging technologies, and provide full solutions (front and back-end) in a bilingual agile environment, making him an invaluable addition to any organization. Moreover, Alin's strong team-player mentality is accompanied by a proven track record of successfully propelling start-ups to multi-million dollar valuations.</span>
+<br/><br/>
+<h3>Work Experience</h3>
+<br/>
+<div class="position">
+<span class="company">BBox Digital</span>&nbsp;&nbsp;&nbsp;<div class="period">01/2022 – 07/2022</div>
+<span class="job-title">Data Architect</span><br/><br/>
+<ul>
+<li>Assumed a technical leadership position in managing and integrating data, as well as implementing data governance practices for numerous prominent clients within the education sector.</li>
+<li>Engaged in remote collaboration with managers and client-side analysts to ensure seamless coordination and effective communication.</li>
+<li>Conducted daily data analysis using SQL and Python 3, utilizing Google Analytics data and multiple datasets from diverse customers.</li>
+<li>Architected and constructed a robust Data Lake infrastructure to facilitate efficient data storage and retrieval.</li>
+<li>Generated insightful business intelligence (BI) reports utilizing Colaboratory and Data Studio, delivering valuable insights to stakeholders.</li>
+<li>Integrated a SPARQL endpoint for usage in Algolia for enhanced usage and search capabilities.</li>
+<li>Technologies: GCP (BigQuery, Cloud Composer, Colaboratory, Data Studio), Python 3, SQL, SPARQL, Algolia</li>
+</ul>
+
+</div>
+<div class="position">
+<span class="company">ChallengeU</span>&nbsp;&nbsp;&nbsp;<div class="period">10/2017 – 01/2020</div>
+<span class="job-title">DataOps Lead</span><br/><br/>
+<ul>
+<li>Designed and implemented a cost-effective and low-maintenance data warehousing strategy, establishing a ~100Gb Data Lake and implementing an analysis framework that served as a foundation for critical business decisions and daily operations across the organization.</li>
+<li>Collaborated closely with a team of analysts to understand their requirements, providing comprehensive guidelines and delivering training sessions to ensure optimal utilization of the data infrastructure.</li>
+<li>Conducted regular data analysis tasks in Python and SQL, for data cleanup and presentation purposes, to facilitate data-driven insights and reporting.</li>
+<li>Integrated the Facebook Marketing API to enable efficient A/B testing for ad campaigns, enhancing marketing strategies and optimizing resource utilization.</li>
+<li>Administered and managed a JupyterHub instance on CentOS, overseeing user access, package installations, and version control with Git.</li>
+<li>Successfully executed multiple large-scale email campaigns utilizing the Mailchimp API, achieving high levels of engagement and maximizing the impact of marketing initiatives.</li>
+<li>Effectively launched and managed multiple SMS campaigns leveraging the Twilio API, reaching target audiences and driving customer engagement through mobile channels.</li>
+<li>Technologies: Python, PostgreSQL, PL/pgSQL, JupyterLab, AWS (RDS,, EC2, S3), Airflow, CentOS, NIFI, GDocs, Git, JIRA</li>
+</ul>
+</div>
+
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<div class="position">
+<span class="company">ChallengeU</span>&nbsp;&nbsp;&nbsp;<div class="period">05/2011 – 10/2017</div>
+<span class="job-title">Senior Programmer</span><br/><br/>
+<ul>
+<li>Played a key role in propulsing a start-up to a multi-million dollar valuation by actively participating in solution design discussions and quickly translating ideas into working prototypes and production-ready code.</li>
+<li>Designed, developed, tested and deployed dozens of back-end features on a web based education software.</li>
+<li>Continuously analyzed, diagnosed and corrected performance problems.</li>
+<li>Routinely performed migrations on production data.</li>
+<li>Designed and developed a web based ERP for student/teacher management and license management.</li>
+<li>Built pipelines for video/image conversion and transformation.</li>
+<li>Provided mentorship to junior level developers.</li>
+<li>Technologies: Python 2.7, PostgreSQL, Redis, SQLAlchemy, WSGI, , CherryPy, PyTest, JavaScript, CSS, ExtJS, Neo4J, AWS (EC2, S3, RDS, Route 53), CentOS, Git, JIRA, Redmine</li>
+</ul>
+</div>
+
+
+<div class="position">
+<span class="company">Didacti</span>&nbsp;&nbsp;&nbsp;<div class="period">03/2009 – 05/2011</div>
+<span class="job-title">Senior Programmer</span><br/><br/>
+<ul>
+<li>Single handedly created a web-based classroom teaching software utilized by a private school in a pilot program.</li>
+<li>Adapted an open-source social media software (Elgg) into an upgraded online teaching tool.</li>
+<li>Conducted a migration to AWS (Amazon Web Services).</li>
+<li>Offered mentorship to interns.</li>
+<li>Provided consultation on performance issues related to educational web-based games.</li>
+<li>Technologies: PHP, JavaScript, jQuery, CSS, MySQL, Apache2, Ubuntu Server, CVS</li>
+</ul>
+</div>
+
+
+<div class="position">
+<span class="company">Boolean Box</span>&nbsp;&nbsp;&nbsp;<div class="period">03/2009 – 05/2011</div>
+<span class="job-title">Senior Programmer</span><br/><br/>
+<ul>
+<li>Designed, developed, and maintained three web-based enterprise resource planning (ERP) systems that included customer relationship management (CRM), inventory management, point-of-sale (POS), resource planning, and catalog building.</li>
+<li>Executed successful migration and transition of six customers to the AWS cloud platform, ensuring seamless operations and enhanced scalability.</li>
+<li>Engaged in agile customer meetings to gather and discuss requirements, facilitating a collaborative and iterative development process.</li>
+<li>Constructed five websites utilizing PHP, JavaScript, and CSS, delivering visually appealing and interactive online experiences.</li>
+<li>Efficiently migrated two undocumented legacy databases to a modern SQLAlchemy implementation, improving data management and accessibility.</li>
+<li>Designed and developed web-based development tools tailored for internal use, empowering the team with streamlined and efficient workflows.</li>
+<li>Technologies: PHP, Python 2.6, JavaScript, CSS, MySQL, SQLAlchemy, CherryPy, Ubuntu Server, CVS, ExtJS, jQuery</li>
+</ul>
+</div>
+
+<br/>
+<h3>Education</h3>
+
+<div class="position">
+<span class="company">Ahuntsic College</span>&nbsp;&nbsp;&nbsp;<div class="period">2001 – 2003</div>
+<span class="job-title">Business Informatics</span><br/><br/>
+</div>
+
+</div>
+
+
+
+
+<div id="buttons">
+<button type="button" disabled="true">Cancel</button>
+<button type="button">Employ</button>
+</div>
+<img src="cursor.png" id="cursor"/>
+</div></body>
+</html>
