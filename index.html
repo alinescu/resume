@@ -1,175 +1,9 @@
 <html>
-<head>
-<script src="jquery-3.7.0.min.js"></script>
-<style>
-
-:root {
-  --margin-width: 200px;
-}
-
-body {
-    font-family: arial;
-    font-size: 12px;
-}
-
-#margin {
-    background-color: #A7C7E7;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    bottom: 0px;
-    width: var(--margin-width);
-    padding: 10px;
-    color: white;
-}
-
-#body {
-    background-color: white;
-    position: absolute;
-    left: var(--margin-width);
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    padding: 0px 0px 0px 20px;
-    color: gray;
-}
-
-#info {
-    background: green;
-    border-radius: 10px;
-    padding: 10px;
-    background-color: #668bb9;
-    padding-left: 15px;
-    margin-bottom: 30px;
-}
-
-#buttons {
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-}
-
-#cursor {
-    width: 10px;
-    height: 16px;
-    position: absolute;
-    right: 6px;
-    bottom: 3px;
-}
-
-h1 {
-    font-size: 50px;
-    color: black;
-    line-height: 25px;
-}
-
-h2 {
-    font-size: 20px;
-    line-height: 0px;
-    margin-bottom: 40px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-#margin h3 {
-    text-shadow: 2px 2px #656565;
-}
-
-.skill {
-    width: 90%;
-    position: relative;
-    margin-bottom: 5px;
-}
-
-.years {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    font-size: 10px;
-    padding-top: 2px;
-}
-
-.skill-bar {
-    height: 7px;
-    background-color: #c7e2ef;
-}
-
-.skill-bar-fill {
-    height: 7px;
-    background: rgb(135,135,135);
-    background: linear-gradient(180deg, rgb(241 245 255) 0%, rgb(126 133 144) 100%);
-}
-
-.skill-bar._100 .skill-bar-fill {
-    width: 100%;
-}
-
-.skill-bar._80 .skill-bar-fill {
-    width: 80%;
-}
-
-.skill-bar._70 .skill-bar-fill {
-    width: 70%;
-}
-
-.skill-bar._66 .skill-bar-fill {
-    width: 66%;
-}
-
-.skill-bar._60 .skill-bar-fill {
-    width: 60%;
-}
-
-.skill-bar._50 .skill-bar-fill {
-    width: 50%;
-}
-
-.skill-bar._40 .skill-bar-fill {
-    width: 40%;
-}
-
-.skill-bar._20 .skill-bar-fill {
-    width: 20%;
-}
-
-
-
-.profile {
-    display: block;
-    text-align: justify;
-}
-
-.profile, .position {
-    padding-right: 20px;
-}
-
-.position {
-    position: relative;
-    margin-bottom: 30px;
-}
-
-.period {
-    position: absolute;
-    right: 20px;
-    top: 0px;
-    font-size: 12px;
-    font-family: courier;
-    font-weight: bold;
-}
-
-.company {
-    font-weight: bold;
-}
-
-.job-title {
-    font-style: italic;
-}
-
-</style>
-</head>
-<body><div id="margin">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery-3.7.0.min.js"></script>
+  </head>
+  <body><div id="margin">
 
 <div id="info">
 alinescu@gmail.com<br/>
@@ -293,13 +127,12 @@ linkedin.com/in/alin-florea-9228b265
 
 </div>
 
-
-
-
 <div id="buttons">
 <button type="button" disabled="true">Cancel</button>
 <button type="button">Employ</button>
 </div>
 <img src="cursor.png" id="cursor"/>
-</div></body>
+</div>
+
+  </body>
 </html>
