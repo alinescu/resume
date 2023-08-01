@@ -97,6 +97,18 @@ h3 {
     background: linear-gradient(180deg, rgb(241 245 255) 0%, rgb(126 133 144) 100%);
 }
 
+.skill-bar._100 .skill-bar-fill {
+    width: 100%;
+}
+
+.skill-bar._66 .skill-bar-fill {
+    width: 66%;
+}
+
+.skill-bar._50 .skill-bar-fill {
+    width: 50%;
+}
+
 .profile {
     display: block;
     text-align: justify;
