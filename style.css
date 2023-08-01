@@ -97,40 +97,6 @@ h3 {
     background: linear-gradient(180deg, rgb(241 245 255) 0%, rgb(126 133 144) 100%);
 }
 
-.skill-bar._100 .skill-bar-fill {
-    width: 100%;
-}
-
-.skill-bar._80 .skill-bar-fill {
-    width: 80%;
-}
-
-.skill-bar._70 .skill-bar-fill {
-    width: 70%;
-}
-
-.skill-bar._66 .skill-bar-fill {
-    width: 66%;
-}
-
-.skill-bar._60 .skill-bar-fill {
-    width: 60%;
-}
-
-.skill-bar._50 .skill-bar-fill {
-    width: 50%;
-}
-
-.skill-bar._40 .skill-bar-fill {
-    width: 40%;
-}
-
-.skill-bar._20 .skill-bar-fill {
-    width: 20%;
-}
-
-
-
 .profile {
     display: block;
     text-align: justify;
