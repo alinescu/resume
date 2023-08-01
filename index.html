@@ -2,6 +2,8 @@
   <head>
     <link rel="stylesheet" href="style.css" />
     <script src="jquery-3.7.0.min.js"></script>
+    <script src="skills.js"></script>
+    <script src="main.js"></script>
   </head>
   <body><div id="margin">
 
@@ -13,21 +15,7 @@ linkedin.com/in/alin-florea-9228b265
 </div>
 
 <h3>Skills</h3>
-<div class="skill">SQL<div class="years">11 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">Python<div class="years">7 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">Javascript<div class="years">7 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">CSS<div class="years">7 years</div><br/><div class="skill-bar _70"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">Neo4J<div class="years">5 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">PHP<div class="years">4 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">PL/pgSQL<div class="years">3 years</div><br/><div class="skill-bar _80"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">NIFI<div class="years">2 years</div><br/><div class="skill-bar _80"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">C/C++<div class="years">10 years</div><br/><div class="skill-bar _80"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">x86 Assembly<div class="years">10 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">ExtJS<div class="years">6 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">SQLAlchemy<div class="years">7 years</div><br/><div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">Unity<div class="years">0.5 years</div><br/><div class="skill-bar _20"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">Unreal Engine 4<div class="years">0.5 years</div><br/><div class="skill-bar _40"><div class="skill-bar-fill"></div></div></div>
-<div class="skill">Unreal Engine 5<div class="years">1 year</div><br/><div class="skill-bar _60"><div class="skill-bar-fill"></div></div></div>
+<div id="skills"></div>
 <br/>
 <h3>Languages</h3>
 <div class="skill">French<div class="skill-bar _100"><div class="skill-bar-fill"></div></div></div>
@@ -43,8 +31,9 @@ linkedin.com/in/alin-florea-9228b265
 <h3>Work Experience</h3>
 <br/>
 <div class="position">
-<span class="company">BBox Digital</span>&nbsp;&nbsp;&nbsp;<div class="period">01/2022 to 07/2022</div>
-<span class="job-title">Data Architect</span><br/><br/>
+<span class="job-title">Data Architect</span> @ <span class="company">BBox Digital</span>
+<div class="period">01/2022 to 07/2022</div>
+<br/><br/>
 <ul>
 <li>Assumed a technical leadership position in managing and integrating data, as well as implementing data governance practices for numerous prominent clients within the education sector.</li>
 <li>Engaged in remote collaboration with managers and client-side analysts to ensure seamless coordination and effective communication.</li>
@@ -57,8 +46,9 @@ linkedin.com/in/alin-florea-9228b265
 
 </div>
 <div class="position">
-<span class="company">ChallengeU</span>&nbsp;&nbsp;&nbsp;<div class="period">10/2017 to 01/2020</div>
-<span class="job-title">DataOps Lead</span><br/><br/>
+<span class="job-title">DataOps Lead</span> @ <span class="company">ChallengeU</span>
+<div class="period">10/2017 to 01/2020</div>
+<br/><br/>
 <ul>
 <li>Designed and implemented a cost-effective and low-maintenance data warehousing strategy, establishing a ~100Gb Data Lake and implementing an analysis framework that served as a foundation for critical business decisions and daily operations across the organization.</li>
 <li>Collaborated closely with a team of analysts to understand their requirements, providing comprehensive guidelines and delivering training sessions to ensure optimal utilization of the data infrastructure.</li>
@@ -71,11 +61,10 @@ linkedin.com/in/alin-florea-9228b265
 </ul>
 </div>
 
-
-<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 <div class="position">
-<span class="company">ChallengeU</span>&nbsp;&nbsp;&nbsp;<div class="period">05/2011 to 10/2017</div>
-<span class="job-title">Senior Programmer</span><br/><br/>
+<span class="job-title">Senior Programmer</span> @ <span class="company">ChallengeU</span>
+<div class="period">05/2011 to 10/2017</div>
+<br/><br/>
 <ul>
 <li>Played a key role in propulsing a start-up to a multi-million dollar valuation by actively participating in solution design discussions and quickly translating ideas into working prototypes and production-ready code.</li>
 <li>Designed, developed, tested and deployed dozens of back-end features on a web based education software.</li>
@@ -90,8 +79,9 @@ linkedin.com/in/alin-florea-9228b265
 
 
 <div class="position">
-<span class="company">Didacti</span>&nbsp;&nbsp;&nbsp;<div class="period">03/2009 to 05/2011</div>
-<span class="job-title">Senior Programmer</span><br/><br/>
+<span class="job-title">Senior Programmer</span> @ <span class="company">Didacti</span>
+<div class="period">03/2009 to 05/2011</div>
+<br/><br/>
 <ul>
 <li>Single handedly created a web-based classroom teaching software utilized by a private school in a pilot program.</li>
 <li>Adapted an open-source social media software (Elgg) into an upgraded online teaching tool.</li>
@@ -104,8 +94,9 @@ linkedin.com/in/alin-florea-9228b265
 
 
 <div class="position">
-<span class="company">Boolean Box</span>&nbsp;&nbsp;&nbsp;<div class="period">03/2009 to 05/2011</div>
-<span class="job-title">Senior Programmer</span><br/><br/>
+<span class="job-title">Senior Programmer</span> @ <span class="company">Boolean Box</span>
+<div class="period">03/2009 to 05/2011</div>
+<br/><br/>
 <ul>
 <li>Designed, developed, and maintained three web-based enterprise resource planning (ERP) systems that included customer relationship management (CRM), inventory management, point-of-sale (POS), resource planning, and catalog building.</li>
 <li>Executed successful migration and transition of six customers to the AWS cloud platform, ensuring seamless operations and enhanced scalability.</li>
@@ -121,8 +112,9 @@ linkedin.com/in/alin-florea-9228b265
 <h3>Education</h3>
 
 <div class="position">
-<span class="company">Ahuntsic College</span>&nbsp;&nbsp;&nbsp;<div class="period">2001 to 2003</div>
-<span class="job-title">Business Informatics</span><br/><br/>
+<span class="job-title">Business Informatics</span> @ <span class="company">Ahuntsic College</span>
+<div class="period">2001 to 2003</div>
+<br/><br/>
 </div>
 
 </div>

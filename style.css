@@ -155,9 +155,9 @@ h3 {
 }
 
 .company {
-    font-weight: bold;
+    font-style: italic;
 }
 
 .job-title {
-    font-style: italic;
+    font-weight: bold;
 }
