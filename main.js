@@ -13,7 +13,7 @@ for(let i = 0; i < skills.length; i++) {
         level = skill[2],
         width = skillbarWidth * (level / 100);
 
-        $('<div class="skill">' + name + '<div class="years">' + years + ' years</div><br/><div class="skill-bar"><div class="skill-bar-fill" style="width: ' + width + 'px"></div></div></div>').appendTo(parentDiv);
+        $(`<div class="skill">${name}<div class="years">${years} years</div><br/><div class="skill-bar"><div class="skill-bar-fill" style="width: ${width}px"></div></div></div>`).appendTo(parentDiv);
 }
 
 });
